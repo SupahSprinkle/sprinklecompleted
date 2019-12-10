@@ -2,13 +2,15 @@
 <p>
   <a href="https://www.npmjs.com/package/vue-sprinklecompleted"><img src="https://img.shields.io/npm/v/vue-sprinklecompleted.svg" alt="Version"></a>
   <a href="https://www.npmjs.com/package/vue-sprinklecompleted"><img src="https://img.shields.io/npm/dt/vue-sprinklecompleted.svg" alt="Downloads"></a>
-  <a href="https://www.npmjs.com/package/vue-sprinklecompleted"><img src="https://img.shields.io/npm/lvue-sprinklecompleted.svg" alt="License"></a>
+  <a href="https://www.npmjs.com/package/vue-sprinklecompleted"><img src="https://img.shields.io/npm/l/vue-sprinklecompleted.svg" alt="License"></a>
 </p>
 
 > Creates a spinning completed component for your page!
 ![](preview.gif)
 
 ### Install
+npm install vue-sprinklecompleted
+
 #### https://www.npmjs.com/package/vue-sprinklecompleted
 
 ### Usage
@@ -38,6 +40,11 @@ props: {
             textColor: {
 				type: String,
                 default: 'white'
+            }
+}
+
+<VueSprinkleCompleted/>
 ```
+
 
 
