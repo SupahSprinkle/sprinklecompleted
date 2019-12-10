@@ -1,11 +1,16 @@
 {
+  "private": false,
   "name": "vue-sprinklecompleted",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "This is a simple vue and anime js component that creates a spinning oval with text in it.",
-  "main": "index.js",
+  "main": "./dist/index.cjs.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vue serve VueSprinkleCompleted.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
   },
+  "files": [
+    "dist/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SupahSprinkle/sprinklecompleted.git"
@@ -30,7 +35,7 @@
   },
   "devDependencies": {
     "bili": "^4.8.1",
-    "rollup-plugin-vue": "^5.1.4",
+    "rollup-plugin-vue": "^5.1.1",
     "vue-template-compiler": "^2.6.10"
   }
 }

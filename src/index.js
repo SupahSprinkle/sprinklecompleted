@@ -1,9 +1,9 @@
-import VueSprinkleCompleted from "./SprinkleCompleted.vue";
+import VueSprinkleCompleted from './VueSprinkleCompleted.vue'
+import Vue from 'vue'
+import App from './App.vue'
 
-export default {
- install(Vue, options) {
-  // Let's register our component globally
-  // https://vuejs.org/v2/guide/components-registration.html
-  Vue.component("vue-sprinklecompleted", VueSprinkleCompleted);
- }
-};
+new Vue({
+    el: '#app',
+    template: '<App/>',
+    components: { App, VueSprinkleCompleted }
+  });
